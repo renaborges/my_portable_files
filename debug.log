@@ -1,0 +1,17 @@
+
+Storing data to file : 
+renata shaw 56
+Split value variable into an array : 
+Forename : renata
+Surname : shaw
+Temperature : 56
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`) values ('renata', 'shaw', '56')
+Storing data to file : 
+tom shaw 35 56
+Split value variable into an array : 
+Forename : tom
+Surname : shaw
+Temperature : 35
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`) values ('tom', 'shaw', '35')
