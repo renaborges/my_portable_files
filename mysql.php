@@ -32,29 +32,39 @@ fwrite($fh,"Storing data to file : ".PHP_EOL);
 
 $forename=$_POST['tag'];
 $value = $_POST['value'];
+
+// cleaning up strings by removing double quotes and square brackets
 $forename = str_replace('"', '', $forename);
 $value = str_replace('"', '', $value);
+
+$value = str_replace('[', '', $value);
+$value = str_replace(']', '', $value);
+
+
 
 fwrite($fh, $forename." ");
 fwrite($fh, $value.PHP_EOL);
 
 //splitting the value variable and store in an array
 fwrite($fh,"Split value variable into an array : ".PHP_EOL);
-$value_array = explode(" ", $value);
+$value_array = explode(",", $value);
 
 $surname = $value_array[0];
 $temperature = $value_array[1];
+$pain = $value_array[2];
 fwrite($fh,"Forename : ".$forename.PHP_EOL);
 fwrite($fh,"Surname : ".$surname.PHP_EOL);
 fwrite($fh,"Temperature : ".$temperature.PHP_EOL);
+fwrite($fh,"Pain : ".$pain.PHP_EOL);
 
 fwrite($fh,"Storing data to MYSQL : ".PHP_EOL);
 
 // Execute insert if tag does not exist
-$query =  sprintf("insert into `tinywebdb` (`forename`, `surname`, `temperature`) values ('%s', '%s', '%s')", 
+$query =  sprintf("insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('%s', '%s', '%s', '%s')", 
 mysql_real_escape_string($forename), 
 mysql_real_escape_string($surname),
-mysql_real_escape_string($temperature));
+mysql_real_escape_string($temperature),
+mysql_real_escape_string($pain));
 
 mysql_query($query);
 fwrite($fh,$query.PHP_EOL);
