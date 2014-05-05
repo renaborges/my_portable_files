@@ -23,39 +23,49 @@ $link = mysql_connect($DB_ADDRESS,$DB_USER,$DB_PASS);   //connect to the MYSQL d
 mysql_select_db($DB_NAME,$link); 
 
 // Check if URI is for a STORE or RETRIEVE
-
+$fh = fopen($myFile, 'a+') or die("can't open file");
 $postUrl=$_SERVER["REQUEST_URI"]; 
+//fwrite($fh,"Start : postUrl is ".$postUrl.PHP_EOL);
 
 if(strpos($postUrl,'storeavalue')){
-$fh = fopen($myFile, 'a+') or die("can't open file");
+
 fwrite($fh,"Storing data to file : ".PHP_EOL);
 
 $forename=$_POST['tag'];
-
 $value = $_POST['value'];
+
+// cleaning up strings by removing double quotes and square brackets
 $forename = str_replace('"', '', $forename);
 $value = str_replace('"', '', $value);
+
+$value = str_replace('[', '', $value);
+$value = str_replace(']', '', $value);
+
+
 
 fwrite($fh, $forename." ");
 fwrite($fh, $value.PHP_EOL);
 
 //splitting the value variable and store in an array
 fwrite($fh,"Split value variable into an array : ".PHP_EOL);
-$value_array = explode(" ", $value);
+$value_array = explode(",", $value);
 
-$forename = $value_array[0];
-$surname = $value_array[1];
-fwrite($fh,"forename : ".$forename.PHP_EOL);
-fwrite($fh,"forename : ".$forename.PHP_EOL);
-fwrite($fh,"surname : ".$surname.PHP_EOL);
+$surname = $value_array[0];
+$temperature = $value_array[1];
+$pain = $value_array[2];
+fwrite($fh,"Forename : ".$forename.PHP_EOL);
+fwrite($fh,"Surname : ".$surname.PHP_EOL);
+fwrite($fh,"Temperature : ".$temperature.PHP_EOL);
+fwrite($fh,"Pain : ".$pain.PHP_EOL);
 
 fwrite($fh,"Storing data to MYSQL : ".PHP_EOL);
 
 // Execute insert if tag does not exist
-$query =  sprintf("insert into `tinywebdb` (`forename`, `surname`) values ('%s', '%s')", 
-
-mysql_real_escape_string($forename),
-mysql_real_escape_string($surname));
+$query =  sprintf("insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('%s', '%s', '%s', '%s')", 
+mysql_real_escape_string($forename), 
+mysql_real_escape_string($surname),
+mysql_real_escape_string($temperature),
+mysql_real_escape_string($pain));
 
 mysql_query($query);
 fwrite($fh,$query.PHP_EOL);
@@ -68,11 +78,11 @@ fclose($fh);
 $fh = fopen($myFile, 'a+') or die("can't open file");
 fwrite($fh,"Retrieving data from MYSQL : ".PHP_EOL);
 
-$forename=$_POST['tag'];
+$forename=$_POST['forename'];
 $forename = trim($forename); 
 
 // Prepare the query and get result from database
-$query =  sprintf("select `surname`,`temperature` from `tinywebdb` where `forename` = '%s' limit 1", mysql_real_escape_string($forename));
+$query =  sprintf("select `forename`, `surname`, `temperature`, `pain` from `tinywebdb` where `forename` = '%s' limit 1", mysql_real_escape_string($forename));
 fwrite($fh, "Query : ". $query.PHP_EOL);
 if($link){ $result=mysql_query($query) ;}     
 if($entry = mysql_fetch_assoc($result))
@@ -80,8 +90,11 @@ if($entry = mysql_fetch_assoc($result))
 	
     $forename = $entry["forename"];
     $surname = $entry["surname"];
-	fwrite($fh,"Entry found in MYSQL : ". $forename.PHP_EOL);
+	$temperature = $entry["temperature"];
+	$pain = $entry["pain"];
 	fwrite($fh,"Entry found in MYSQL : ". $surname.PHP_EOL);
+	fwrite($fh,"Entry found in MYSQL : ". $temperature.PHP_EOL);
+	fwrite($fh,"Entry found in MYSQL : ". $pain.PHP_EOL);
 	
 } else {
 	fwrite($fh,"No Entry found in MYSQL for name : ". mysql_real_escape_string($forename));
@@ -89,7 +102,9 @@ if($entry = mysql_fetch_assoc($result))
 }
 
 // Send result to JSON interface
-echo json_encode(array("VALUE", $forename, $surname));
+//$value_list = [$surname, $temperature, $pain];
+echo json_encode(array("VALUE", $forename, $surname, $temperature, $pain));
+//echo json_encode(array("VALUE", $forename, $value_list));
 fclose($fh);
 
 }

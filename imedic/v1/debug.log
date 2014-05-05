@@ -1,0 +1,315 @@
+﻿
+Starting here : 
+Storing data to file : 
+passw [tom,321]
+Split surname variable into an array : 
+name : 
+pin : 
+Storing data to MYSQL : 
+insert into `nursepin` (`name`, `pin`) values ('passw', '[tom')
+Starting here : 
+Storing data to file : 
+tom 321
+Split surname variable into an array : 
+name : 
+pin : 
+Storing data to MYSQL : 
+insert into `nursepin` (`name`, `pin`) values ('tom', '321')
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tom' limit 1
+Entry found in MYSQL : 
+Entry found in MYSQL : 
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tom' limit 1
+Entry found in MYSQL : tom
+Entry found in MYSQL : 321
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tom' limit 1
+Entry found in MYSQL : tom
+Entry found in MYSQL : 321
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tom' limit 1
+Entry found in MYSQL : tom
+Entry found in MYSQL : 321
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tom' limit 1
+Entry found in MYSQL : tom
+Entry found in MYSQL : 321
+Starting here : 
+Storing data to file : 
+ 321
+Split surname variable into an array : 
+name : 
+pin : 
+Storing data to MYSQL : 
+insert into `nursepin` (`name`, `pin`) values ('', '321')
+Starting here : 
+Storing data to file : 
+ 321
+Split surname variable into an array : 
+name : 
+pin : 
+Storing data to MYSQL : 
+insert into `nursepin` (`name`, `pin`) values ('', '321')
+Starting here : 
+Storing data to file : 
+ 321
+Split surname variable into an array : 
+name : 
+pin : 
+Storing data to MYSQL : 
+insert into `nursepin` (`name`, `pin`) values ('', '321')
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tom' limit 1
+Entry found in MYSQL : tom
+Entry found in MYSQL : 321
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tom' limit 1
+Entry found in MYSQL : tom
+Entry found in MYSQL : 321
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tom' limit 1
+Entry found in MYSQL : tom
+Entry found in MYSQL : 321
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tom' limit 1
+Entry found in MYSQL : tom
+Entry found in MYSQL : 321
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tom' limit 1
+Entry found in MYSQL : tom
+Entry found in MYSQL : 321
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tom' limit 1
+Entry found in MYSQL : tom
+Entry found in MYSQL : 321
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tom' limit 1
+Entry found in MYSQL : tom
+Entry found in MYSQL : 321
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tom' limit 1
+Entry found in MYSQL : tom
+Entry found in MYSQL : 321
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tom' limit 1
+Entry found in MYSQL : tom
+Entry found in MYSQL : 321
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tom' limit 1
+Entry found in MYSQL : tom
+Entry found in MYSQL : 321
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'Renata' limit 1
+Entry found in MYSQL : Renata
+Entry found in MYSQL : 123
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'Renata' limit 1
+Entry found in MYSQL : Renata
+Entry found in MYSQL : 123
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'passw' limit 1
+Entry found in MYSQL : passw
+Entry found in MYSQL : 0
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tom' limit 1
+Entry found in MYSQL : tom
+Entry found in MYSQL : 321
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'Renata' limit 1
+Entry found in MYSQL : Renata
+Entry found in MYSQL : 123
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'Renatahh' limit 1
+No Entry found in MYSQL for name : RenatahhStarting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'Renatahh' limit 1
+No Entry found in MYSQL for name : RenatahhStarting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tim' limit 1
+No Entry found in MYSQL for name : timStarting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tim' limit 1
+No Entry found in MYSQL for name : timStarting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tommy' limit 1
+No Entry found in MYSQL for name : tommyStarting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tom' limit 1
+Entry found in MYSQL : tom
+Entry found in MYSQL : 321
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'Renata' limit 1
+Entry found in MYSQL : Renata
+Entry found in MYSQL : 123
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'Renata' limit 1
+Entry found in MYSQL : Renata
+Entry found in MYSQL : 123
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'Renata' limit 1
+Entry found in MYSQL : Renata
+Entry found in MYSQL : 123
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tommy' limit 1
+No Entry found in MYSQL for name : tommyStarting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tom' limit 1
+Entry found in MYSQL : tom
+Entry found in MYSQL : 321
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tom' limit 1
+Entry found in MYSQL : tom
+Entry found in MYSQL : 321
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tommmy' limit 1
+No Entry found in MYSQL for name : tommmyStarting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tommmy' limit 1
+No Entry found in MYSQL for name : tommmyStarting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tom' limit 1
+Entry found in MYSQL : tom
+Entry found in MYSQL : 321
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tommy' limit 1
+No Entry found in MYSQL for name : tommyStarting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tommy' limit 1
+No Entry found in MYSQL for name : tommyStarting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tommy' limit 1
+No Entry found in MYSQL for name : tommyStarting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tommy' limit 1
+No Entry found in MYSQL for name : tommyStarting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tom' limit 1
+Entry found in MYSQL : tom
+Entry found in MYSQL : 321
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tomm' limit 1
+No Entry found in MYSQL for name : tommStarting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'Tommy' limit 1
+No Entry found in MYSQL for name : TommyStarting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'Tom' limit 1
+Entry found in MYSQL : tom
+Entry found in MYSQL : 321
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'yyyy' limit 1
+No Entry found in MYSQL for name : yyyyStarting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tom' limit 1
+Entry found in MYSQL : tom
+Entry found in MYSQL : 321
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tom' limit 1
+Entry found in MYSQL : tom
+Entry found in MYSQL : 321
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tommy' limit 1
+No Entry found in MYSQL for name : tommyStarting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tommy' limit 1
+No Entry found in MYSQL for name : tommyStarting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tommy' limit 1
+No Entry found in MYSQL for name : tommyStarting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tommy' limit 1
+No Entry found in MYSQL for name : tommyStarting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tommy' limit 1
+No Entry found in MYSQL for name : tommyStarting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tommy' limit 1
+No Entry found in MYSQL for name : tommyStarting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tom' limit 1
+Entry found in MYSQL : tom
+Entry found in MYSQL : 321
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tom' limit 1
+Entry found in MYSQL : tom
+Entry found in MYSQL : 321
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tommy' limit 1
+No Entry found in MYSQL for name : tommyStarting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tommy' limit 1
+No Entry found in MYSQL for name : tommyStarting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tom' limit 1
+Entry found in MYSQL : tom
+Entry found in MYSQL : 321
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tommy' limit 1
+No Entry found in MYSQL for name : tommyStarting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tommy' limit 1
+No Entry found in MYSQL for name : tommyStarting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'uuuuu' limit 1
+No Entry found in MYSQL for name : uuuuuStarting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tom' limit 1
+Entry found in MYSQL : tom
+Entry found in MYSQL : 321
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'Renata' limit 1
+Entry found in MYSQL : Renata
+Entry found in MYSQL : 123
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'Renata' limit 1
+Entry found in MYSQL : Renata
+Entry found in MYSQL : 123
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'Renatahhh' limit 1
+No Entry found in MYSQL for name : RenatahhhStarting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'ggghh' limit 1
+No Entry found in MYSQL for name : ggghhStarting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `pin` from `nursepin` where `name` = 'tom' limit 1
+Entry found in MYSQL : tom
+Entry found in MYSQL : 321

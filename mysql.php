@@ -33,38 +33,28 @@ fwrite($fh,"Storing data to file : ".PHP_EOL);
 $forename=$_POST['tag'];
 $value = $_POST['value'];
 
-// cleaning up strings by removing double quotes and square brackets
-$forename = str_replace('"', '', $forename);
 $value = str_replace('"', '', $value);
 
-$value = str_replace('[', '', $value);
-$value = str_replace(']', '', $value);
 
-
-
-fwrite($fh, $forename." ");
 fwrite($fh, $value.PHP_EOL);
 
 //splitting the value variable and store in an array
 fwrite($fh,"Split value variable into an array : ".PHP_EOL);
-$value_array = explode(",", $value);
+$value_array = explode(" ", $value);
 
-$surname = $value_array[0];
-$temperature = $value_array[1];
-$pain = $value_array[2];
-fwrite($fh,"Forename : ".$forename.PHP_EOL);
-fwrite($fh,"Surname : ".$surname.PHP_EOL);
-fwrite($fh,"Temperature : ".$temperature.PHP_EOL);
-fwrite($fh,"Pain : ".$pain.PHP_EOL);
+$forename = $value_array[0];
+$surname = $value_array[1];
+
+fwrite($fh,"forename : ".$forename.PHP_EOL);
+fwrite($fh,"surname : ".$surname.PHP_EOL);
 
 fwrite($fh,"Storing data to MYSQL : ".PHP_EOL);
 
 // Execute insert if tag does not exist
-$query =  sprintf("insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('%s', '%s', '%s', '%s')", 
-mysql_real_escape_string($forename), 
-mysql_real_escape_string($surname),
-mysql_real_escape_string($temperature),
-mysql_real_escape_string($pain));
+$query =  sprintf("insert into `tinywebdb` (`forename`, `surname`) values ('%s', '%s')", 
+
+mysql_real_escape_string($forename),
+mysql_real_escape_string($surname));
 
 mysql_query($query);
 fwrite($fh,$query.PHP_EOL);
@@ -86,20 +76,19 @@ fwrite($fh, "Query : ". $query.PHP_EOL);
 if($link){ $result=mysql_query($query) ;}     
 if($entry = mysql_fetch_assoc($result))
 {
-	
+
     $forename = $entry["forename"];
     $surname = $entry["surname"];
-	$temperature = $entry["temperature"];
+	fwrite($fh,"Entry found in MYSQL : ". $forename.PHP_EOL);
 	fwrite($fh,"Entry found in MYSQL : ". $surname.PHP_EOL);
-	fwrite($fh,"Entry found in MYSQL : ". $temperature.PHP_EOL);
-	
+
 } else {
 	fwrite($fh,"No Entry found in MYSQL for name : ". mysql_real_escape_string($forename));
 
 }
 
 // Send result to JSON interface
-echo json_encode(array("VALUE", $forename, $surname, $temperature));
+echo json_encode(array("VALUE", $forename, $surname));
 fclose($fh);
 
 }
