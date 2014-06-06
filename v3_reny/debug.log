@@ -1,0 +1,554 @@
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Julia' limit 1
+Entry found in MYSQL : Julia
+Entry found in MYSQL : hides
+Entry found in MYSQL : 33
+Starting here : 
+Storing data to file : 
+false
+Split value variable into an array : 
+forename : false
+surname : 
+temperature : 
+pain : 
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('false', '', '', '')
+Starting here : 
+Storing data to file : 
+Error 
+Split value variable into an array : 
+forename : Error 
+surname : 
+temperature : 
+pain : 
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('Error ', '', '', '')
+Starting here : 
+Storing data to file : 
+error
+Split value variable into an array : 
+forename : error
+surname : 
+temperature : 
+pain : 
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('error', '', '', '')
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Julia' limit 1
+Entry found in MYSQL : Julia
+Entry found in MYSQL : hides
+Entry found in MYSQL : 33
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Julia' limit 1
+Entry found in MYSQL : Julia
+Entry found in MYSQL : hides
+Entry found in MYSQL : 33
+Starting here : 
+Storing data to file : 
+35,140,5,140
+Split value variable into an array : 
+forename : 35
+surname : 140
+temperature : 5
+pain : 140
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('35', '140', '5', '140')
+Starting here : 
+Storing data to file : 
+40,140,5,140
+Split value variable into an array : 
+forename : 40
+surname : 140
+temperature : 5
+pain : 140
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('40', '140', '5', '140')
+Starting here : 
+Storing data to file : 
+patientName,35,140,3,140
+Split value variable into an array : 
+forename : patientName
+surname : 35
+temperature : 140
+pain : 3
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('patientName', '35', '140', '3')
+Starting here : 
+Storing data to file : 
+40,140,5,160
+Split value variable into an array : 
+forename : 40
+surname : 140
+temperature : 5
+pain : 160
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('40', '140', '5', '160')
+Starting here : 
+Storing data to file : 
+patientName,welcome,40,120,5,80
+Split value variable into an array : 
+forename : patientName
+surname : welcome
+temperature : 40
+pain : 120
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('patientName', 'welcome', '40', '120')
+Starting here : 
+Storing data to file : 
+patientName,40,140,5,140
+Split value variable into an array : 
+forename : patientName
+surname : 40
+temperature : 140
+pain : 5
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('patientName', '40', '140', '5')
+Starting here : 
+Storing data to file : 
+Julia,40,140,10,140
+Split value variable into an array : 
+forename : Julia
+surname : 40
+temperature : 140
+pain : 10
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('Julia', '40', '140', '10')
+Starting here : 
+Storing data to file : 
+Julia,35,120,1,80
+Split value variable into an array : 
+forename : Julia
+surname : 35
+temperature : 120
+pain : 1
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('Julia', '35', '120', '1')
+Starting here : 
+Storing data to file : 
+Julia,40,140,10,180
+Split value variable into an array : 
+forename : Julia
+surname : 40
+temperature : 140
+pain : 10
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('Julia', '40', '140', '10')
+Starting here : 
+Storing data to file : 
+Julia,40,140,5,160
+Split value variable into an array : 
+forename : Julia
+surname : 40
+temperature : 140
+pain : 5
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('Julia', '40', '140', '5')
+Starting here : 
+Storing data to file : 
+Julia,35,120,1,80
+Split value variable into an array : 
+forename : Julia
+surname : 35
+temperature : 120
+pain : 1
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('Julia', '35', '120', '1')
+Starting here : 
+Storing data to file : 
+Julia,35,120,1,80
+Split value variable into an array : 
+forename : Julia
+surname : 35
+temperature : 120
+pain : 1
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('Julia', '35', '120', '1')
+Starting here : 
+Storing data to file : 
+Julia,35,120,1,80
+Split value variable into an array : 
+forename : Julia
+surname : 35
+temperature : 120
+pain : 1
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('Julia', '35', '120', '1')
+Starting here : 
+Storing data to file : 
+Julia,40,140,10,180
+Split value variable into an array : 
+forename : Julia
+surname : 40
+temperature : 140
+pain : 10
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('Julia', '40', '140', '10')
+Starting here : 
+Storing data to file : 
+Julia,30,120\/80,5,180
+Split value variable into an array : 
+forename : Julia
+surname : 30
+temperature : 120\/80
+pain : 5
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('Julia', '30', '120\\/80', '5')
+Starting here : 
+Storing data to file : 
+Julia,30,110\/60,1,80
+Split value variable into an array : 
+forename : Julia
+surname : 30
+temperature : 110\/60
+pain : 1
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('Julia', '30', '110\\/60', '1')
+Starting here : 
+Storing data to file : 
+Julia,30,110\/60,1,80
+Split value variable into an array : 
+name : Julia
+temperature : 30
+bloodps : 110\/60
+pain : 1
+pulse : 80
+Storing data to MYSQL : 
+insert into `tinywebdb` (`name`, `temperature`, `bloodps`, `pain`, `pulse`) values ('Julia', '30', '110\\/60', '1', '80')
+Starting here : 
+Storing data to file : 
+Julia,30,110.60,1,80
+Split value variable into an array : 
+name : Julia
+temperature : 30
+bloodps : 110.60
+pain : 1
+pulse : 80
+Storing data to MYSQL : 
+insert into `tinywebdb` (`name`, `temperature`, `bloodps`, `pain`, `pulse`) values ('Julia', '30', '110.60', '1', '80')
+Starting here : 
+Storing data to file : 
+Julia,35,120\/60,7,180
+Split value variable into an array : 
+name : Julia
+temperature : 35
+bloodps : 120\/60
+pain : 7
+pulse : 180
+Storing data to MYSQL : 
+insert into `tinywebdb` (`name`, `temperature`, `bloodps`, `pain`, `pulse`) values ('Julia', '35', '120\\/60', '7', '180')
+Starting here : 
+Storing data to file : 
+Julia,40,120\/80,7,140
+Split value variable into an array : 
+name : Julia
+temperature : 40
+bloodps : 120\/80
+pain : 7
+pulse : 140
+Storing data to MYSQL : 
+insert into `tinywebdb` (`name`, `temperature`, `bloodps`, `pain`, `pulse`) values ('Julia', '40', '120\\/80', '7', '140')
+Starting here : 
+Storing data to file : 
+Julia,35,110.60,3,140
+Split value variable into an array : 
+name : Julia
+temperature : 35
+bloodps : 110.60
+pain : 3
+pulse : 140
+Storing data to MYSQL : 
+insert into `tinywebdb` (`name`, `temperature`, `bloodps`, `pain`, `pulse`) values ('Julia', '35', '110.60', '3', '140')
+Starting here : 
+Storing data to file : 
+Julia,40,120.60,7,160
+Split value variable into an array : 
+name : Julia
+temperature : 40
+bloodps : 120.60
+pain : 7
+pulse : 160
+Storing data to MYSQL : 
+insert into `tinywebdb` (`name`, `temperature`, `bloodps`, `pain`, `pulse`) values ('Julia', '40', '120.60', '7', '160')
+Starting here : 
+Storing data to file : 
+Julia,30,,,
+Split value variable into an array : 
+name : Julia
+temperature : 30
+bloodps : 
+pain : 
+pulse : 
+Storing data to MYSQL : 
+insert into `tinywebdb` (`name`, `temperature`, `bloodps`, `pain`, `pulse`) values ('Julia', '30', '', '', '')
+Starting here : 
+Storing data to file : 
+Julia,35,,,
+Split value variable into an array : 
+name : Julia
+temperature : 35
+bloodps : 
+pain : 
+pulse : 
+Storing data to MYSQL : 
+insert into `tinywebdb` (`name`, `temperature`, `bloodps`, `pain`, `pulse`) values ('Julia', '35', '', '', '')
+Starting here : 
+Storing data to file : 
+Julia,,110.80,,
+Split value variable into an array : 
+name : Julia
+temperature : 
+bloodps : 110.80
+pain : 
+pulse : 
+Storing data to MYSQL : 
+insert into `tinywebdb` (`name`, `temperature`, `bloodps`, `pain`, `pulse`) values ('Julia', '', '110.80', '', '')
+Starting here : 
+Storing data to file : 
+Julia,30,110.80,5,140
+Split value variable into an array : 
+name : Julia
+temperature : 30
+bloodps : 110.80
+pain : 5
+pulse : 140
+Storing data to MYSQL : 
+insert into `tinywebdb` (`name`, `temperature`, `bloodps`, `pain`, `pulse`) values ('Julia', '30', '110.80', '5', '140')
+Starting here : 
+Storing data to file : 
+Julia,,,,160
+Split value variable into an array : 
+name : Julia
+temperature : 
+bloodps : 
+pain : 
+pulse : 160
+Storing data to MYSQL : 
+insert into `tinywebdb` (`name`, `temperature`, `bloodps`, `pain`, `pulse`) values ('Julia', '', '', '', '160')
+Starting here : 
+Storing data to file : 
+Julia,,140.80,,
+Split value variable into an array : 
+name : Julia
+temperature : 
+bloodps : 140.80
+pain : 
+pulse : 
+Storing data to MYSQL : 
+insert into `tinywebdb` (`name`, `temperature`, `bloodps`, `pain`, `pulse`) values ('Julia', '', '140.80', '', '')
+Starting here : 
+Retrieving data from MYSQL : 
+Query : 
+No Entry found in MYSQL for name : JuliaStarting here : 
+Retrieving data from MYSQL : 
+Query : 
+No Entry found in MYSQL for name : JuliaStarting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `temperature`, `bloodps`, `pain`, `pulse` from `tinywebdb` where `name` = 'Julia' limit 1
+Entry found in MYSQL : Julia
+Entry found in MYSQL : 30
+Entry found in MYSQL : 110.6
+Entry found in MYSQL : 1
+Entry found in MYSQL : 80
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `temperature`, `bloodps`, `pain`, `pulse` from `tinywebdb` where `name` = 'Julia' limit 1
+Entry found in MYSQL : Julia
+Entry found in MYSQL : 30
+Entry found in MYSQL : 110.6
+Entry found in MYSQL : 1
+Entry found in MYSQL : 80
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `temperature`, `bloodps`, `pain`, `pulse` from `tinywebdb` where `name` = 'Julia' limit 1
+Entry found in MYSQL : Julia
+Entry found in MYSQL : 30
+Entry found in MYSQL : 110.6
+Entry found in MYSQL : 1
+Entry found in MYSQL : 80
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `temperature`, `bloodps`, `pain`, `pulse` from `tinywebdb` where `name` = 'Julia' limit 1
+Entry found in MYSQL : Julia
+Entry found in MYSQL : 30
+Entry found in MYSQL : 110.6
+Entry found in MYSQL : 1
+Entry found in MYSQL : 80
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `temperature`, `bloodps`, `pain`, `pulse` from `tinywebdb` where `name` = 'Julia' limit 1
+Entry found in MYSQL : Julia
+Entry found in MYSQL : 30
+Entry found in MYSQL : 110.6
+Entry found in MYSQL : 1
+Entry found in MYSQL : 80
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `temperature`, `bloodps`, `pain`, `pulse` from `tinywebdb` where `name` = 'Julia' limit 1
+Entry found in MYSQL : Julia
+Entry found in MYSQL : 30
+Entry found in MYSQL : 110.6
+Entry found in MYSQL : 1
+Entry found in MYSQL : 80
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `temperature`, `bloodps`, `pain`, `pulse` from `tinywebdb` where `name` = 'Julia' limit 1
+Entry found in MYSQL : Julia
+Entry found in MYSQL : 30
+Entry found in MYSQL : 110.6
+Entry found in MYSQL : 1
+Entry found in MYSQL : 80
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `temperature`, `bloodps`, `pain`, `pulse` from `tinywebdb` where `name` = 'Julia' limit 1
+Entry found in MYSQL : Julia
+Entry found in MYSQL : 30
+Entry found in MYSQL : 110.6
+Entry found in MYSQL : 1
+Entry found in MYSQL : 80
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `temperature`, `bloodps`, `pain`, `pulse` from `tinywebdb` where `name` = 'Julia' limit 1
+Entry found in MYSQL : Julia
+Entry found in MYSQL : 30
+Entry found in MYSQL : 110.6
+Entry found in MYSQL : 1
+Entry found in MYSQL : 80
+Starting here : 
+Storing data to file : 
+Julia,30,110.80,3,140
+Split value variable into an array : 
+name : Julia
+temperature : 30
+bloodps : 110.80
+pain : 3
+pulse : 140
+Storing data to MYSQL : 
+insert into `tinywebdb` (`name`, `temperature`, `bloodps`, `pain`, `pulse`) values ('Julia', '30', '110.80', '3', '140')
+Starting here : 
+Storing data to file : 
+Julia,30,110.80,5,140
+Split value variable into an array : 
+name : Julia
+temperature : 30
+bloodps : 110.80
+pain : 5
+pulse : 140
+Storing data to MYSQL : 
+insert into `tinywebdb` (`name`, `temperature`, `bloodps`, `pain`, `pulse`) values ('Julia', '30', '110.80', '5', '140')
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `temperature`, `bloodps`, `pain`, `pulse` from `tinywebdb` where `name` = 'Julia' limit 1
+Entry found in MYSQL : Julia
+Entry found in MYSQL : 30
+Entry found in MYSQL : 110.8
+Entry found in MYSQL : 3
+Entry found in MYSQL : 140
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `temperature`, `bloodps`, `pain`, `pulse` from `tinywebdb` where `name` = 'Julia' limit 1
+Entry found in MYSQL : Julia
+Entry found in MYSQL : 30
+Entry found in MYSQL : 110.8
+Entry found in MYSQL : 3
+Entry found in MYSQL : 140
+Starting here : 
+Storing data to file : 
+Julia,30,140.80,10,180
+Split value variable into an array : 
+name : Julia
+temperature : 30
+bloodps : 140.80
+pain : 10
+pulse : 180
+Storing data to MYSQL : 
+insert into `tinywebdb` (`name`, `temperature`, `bloodps`, `pain`, `pulse`) values ('Julia', '30', '140.80', '10', '180')
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `temperature`, `bloodps`, `pain`, `pulse` from `tinywebdb` where `name` = 'Julia' limit 1
+Entry found in MYSQL : Julia
+Entry found in MYSQL : 30
+Entry found in MYSQL : 110.8
+Entry found in MYSQL : 3
+Entry found in MYSQL : 140
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `temperature`, `bloodps`, `pain`, `pulse` from `tinywebdb` where `name` = 'Julia' limit 1
+Entry found in MYSQL : Julia
+Entry found in MYSQL : 30
+Entry found in MYSQL : 110.8
+Entry found in MYSQL : 3
+Entry found in MYSQL : 140
+Starting here : 
+Storing data to file : 
+Julia,35,110.80,5,140
+Split value variable into an array : 
+name : Julia
+temperature : 35
+bloodps : 110.80
+pain : 5
+pulse : 140
+Storing data to MYSQL : 
+insert into `tinywebdb` (`name`, `temperature`, `bloodps`, `pain`, `pulse`) values ('Julia', '35', '110.80', '5', '140')
+Starting here : 
+Storing data to file : 
+Julia,35,120.60,5,160
+Split value variable into an array : 
+name : Julia
+temperature : 35
+bloodps : 120.60
+pain : 5
+pulse : 160
+Storing data to MYSQL : 
+insert into `tinywebdb` (`name`, `temperature`, `bloodps`, `pain`, `pulse`) values ('Julia', '35', '120.60', '5', '160')
+Starting here : 
+Storing data to file : 
+...,,,5,
+Split value variable into an array : 
+name : ...
+temperature : 
+bloodps : 
+pain : 5
+pulse : 
+Storing data to MYSQL : 
+insert into `tinywebdb` (`name`, `temperature`, `bloodps`, `pain`, `pulse`) values ('...', '', '', '5', '')
+Starting here : 
+Storing data to file : 
+...,,,,
+Split value variable into an array : 
+name : ...
+temperature : 
+bloodps : 
+pain : 
+pulse : 
+Storing data to MYSQL : 
+insert into `tinywebdb` (`name`, `temperature`, `bloodps`, `pain`, `pulse`) values ('...', '', '', '', '')
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `temperature`, `bloodps`, `pain`, `pulse` from `tinywebdb` where `name` = 'Julia' limit 1
+Entry found in MYSQL : Julia
+Entry found in MYSQL : 30
+Entry found in MYSQL : 110.8
+Entry found in MYSQL : 3
+Entry found in MYSQL : 140
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `name`, `temperature`, `bloodps`, `pain`, `pulse` from `tinywebdb` where `name` = 'Julia' limit 1
+Entry found in MYSQL : Julia
+Entry found in MYSQL : 30
+Entry found in MYSQL : 110.8
+Entry found in MYSQL : 3
+Entry found in MYSQL : 140
+Starting here : 
+Storing data to file : 
+Julia,40,120.80,5,120
+Split value variable into an array : 
+name : Julia
+temperature : 40
+bloodps : 120.80
+pain : 5
+pulse : 120
+Storing data to MYSQL : 
+insert into `tinywebdb` (`name`, `temperature`, `bloodps`, `pain`, `pulse`) values ('Julia', '40', '120.80', '5', '120')
