@@ -33,38 +33,40 @@ if(strpos($postUrl,'storeavalue')){
 
 fwrite($fh,"Storing data to file : ".PHP_EOL);
 
-$forename=$_POST['tag'];
-$surname = $_POST['value'];
 
-$forename = str_replace('"', '', $forename);
-$surname = str_replace('"', '', $surname);
-//$forename = str_replace('"', '', $forename);
-//$surname = str_replace('"', '', $surname);
+$tag=$_POST['tag'];
+$value = $_POST['value'];
 
-fwrite($fh, $forename." ");
-fwrite($fh, $surname.PHP_EOL);
+// cleaning up strings by removing double quotes and square brackets
+$value = str_replace('"', '', $value);
+$value = str_replace('[', '', $value);
+$value = str_replace(']', '', $value);
 
-//splitting the surname variable and store in an array
-fwrite($fh,"Split surname variable into an array : ".PHP_EOL);
-$surname_array = explode(" ", $surname);
+fwrite($fh, $value.PHP_EOL);
 
-//$forename = $surname_array[0];
-$surname = $surname_array[0];
-fwrite($fh,"forename : ".$forename.PHP_EOL);
+//splitting the value variable and store in an array
+fwrite($fh,"Split value variable into an array : ".PHP_EOL);
+$value_array = explode(",", $value);
 
-fwrite($fh,"surname : ".$surname.PHP_EOL);
+$name = $value_array[0];
+$pin = $value_array[1];
+
+fwrite($fh,"name : ".$forename.PHP_EOL);
+fwrite($fh,"pin : ".$surname.PHP_EOL);
 
 fwrite($fh,"Storing data to MYSQL : ".PHP_EOL);
 
 // Execute insert if tag does not exist
-$query =  sprintf("insert into `tinywebdb` (`forename`, `surname`) values ('%s', '%s')", 
-//mysql_real_escape_string($forename), 
-mysql_real_escape_string($forename),
-mysql_real_escape_string($surname));
+$query =  sprintf("insert into `nursepin` (`name`, `pin`) values ('%s', '%s')", 
+mysql_real_escape_string($name), 
+mysql_real_escape_string($pin));
 
 mysql_query($query);
 fwrite($fh,$query.PHP_EOL);
 mysql_close();
+
+fclose($fh);
+
 
  
 }else {
@@ -72,29 +74,29 @@ mysql_close();
 //$fh = fopen($myFile, 'a+') or die("can't open file");
 fwrite($fh,"Retrieving data from MYSQL : ".PHP_EOL);
 
-$forename=$_POST['tag'];
-$forename = trim($forename);
+$name=$_POST['tag'];
+$name = trim($name);
  
 //fwrite($fh,"forename : ".$forename.PHP_EOL);
 // Prepare the query and get result from database
-$query =  sprintf("select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = '%s' limit 1", mysql_real_escape_string($forename));
+$query =  sprintf("select `name`, `pin` from `nursepin` where `name` = '%s' limit 1", mysql_real_escape_string($name));
 fwrite($fh, "Query : ". $query.PHP_EOL);
 if($link){ $result=mysql_query($query) ;}     
-if($entry = mysql_fetch_assoc($result))
+if($entry = mysql_fetch_array($result))
 {
 	
-    $forename = $entry["forename"];
-    $surname = $entry["surname"];
-	fwrite($fh,"Entry found in MYSQL : ". $forename.PHP_EOL);
-	fwrite($fh,"Entry found in MYSQL : ". $surname.PHP_EOL);
+    $name = $entry["name"];
+    $pin = $entry["pin"];
+	fwrite($fh,"Entry found in MYSQL : ". $name.PHP_EOL);
+	fwrite($fh,"Entry found in MYSQL : ". $pin.PHP_EOL);
 	
 } else {
-	fwrite($fh,"No Entry found in MYSQL for name : ". mysql_real_escape_string($forename));
+	fwrite($fh,"No Entry found in MYSQL for name : ". mysql_real_escape_string($name));
 
 }
 
 // Send result to JSON interface
-echo json_encode(array("surname", $forename, $surname));
+echo json_encode(array("value", $name, $pin));
 
 
 }

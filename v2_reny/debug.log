@@ -1,0 +1,523 @@
+
+Rows Found in Database : 4
+Starting here : 
+Storing data to file : 
+Renata,Borges,35,2
+Split value variable into an array : 
+forename : Renata
+surname : Borges
+temperature : 35
+pain : 2
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('Renata', 'Borges', '35', '2')
+Starting here : 
+Storing data to file : 
+35,120,1,120
+Split value variable into an array : 
+forename : 35
+surname : 120
+temperature : 1
+pain : 120
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('35', '120', '1', '120')
+Starting here : 
+Storing data to file : 
+35,120,1,120
+Split value variable into an array : 
+forename : 35
+surname : 120
+temperature : 1
+pain : 120
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('35', '120', '1', '120')
+Starting here : 
+Storing data to file : 
+35,120,1,80
+Split value variable into an array : 
+forename : 35
+surname : 120
+temperature : 1
+pain : 80
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('35', '120', '1', '80')
+Starting here : 
+Storing data to file : 
+Renata,Borges,35,3
+Split value variable into an array : 
+forename : Renata
+surname : Borges
+temperature : 35
+pain : 3
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('Renata', 'Borges', '35', '3')
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Renata' limit 1
+Entry found in MYSQL : Renata
+Entry found in MYSQL : Borges
+Rows Found in Database : 5
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Renata' limit 1
+Entry found in MYSQL : Renata
+Entry found in MYSQL : Borges
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Renata' limit 1
+Entry found in MYSQL : Renata
+Entry found in MYSQL : Borges
+Starting here : 
+Storing data to file : 
+Thomas,Shaw,35,2
+Split value variable into an array : 
+forename : Thomas
+surname : Shaw
+temperature : 35
+pain : 2
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('Thomas', 'Shaw', '35', '2')
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Storing data to file : 
+Paty,santos,22,1
+Split value variable into an array : 
+forename : Paty
+surname : santos
+temperature : 22
+pain : 1
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('Paty', 'santos', '22', '1')
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Storing data to file : 
+reny,Silva,55,1
+Split value variable into an array : 
+forename : reny
+surname : Silva
+temperature : 55
+pain : 1
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('reny', 'Silva', '55', '1')
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Paty' limit 1
+Entry found in MYSQL : Paty
+Entry found in MYSQL : santos
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Paty' limit 1
+Entry found in MYSQL : Paty
+Entry found in MYSQL : santos
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Paty' limit 1
+Entry found in MYSQL : Paty
+Entry found in MYSQL : santos
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Paty' limit 1
+Entry found in MYSQL : Paty
+Entry found in MYSQL : santos
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Paty' limit 1
+Entry found in MYSQL : Paty
+Entry found in MYSQL : santos
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Paty' limit 1
+Entry found in MYSQL : Paty
+Entry found in MYSQL : santos
+Starting here : 
+Storing data to file : 
+
+Split value variable into an array : 
+forename : 
+surname : 
+temperature : 
+pain : 
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('', '', '', '')
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Storing data to file : 
+tio,dantas,22,1
+Split value variable into an array : 
+forename : tio
+surname : dantas
+temperature : 22
+pain : 1
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('tio', 'dantas', '22', '1')
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'tio' limit 1
+Entry found in MYSQL : tio
+Entry found in MYSQL : dantas
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Fred' limit 1
+Entry found in MYSQL : Fred
+Entry found in MYSQL : goodness
+Starting here : 
+Storing data to file : 
+Nato,borges,44,3
+Split value variable into an array : 
+forename : Nato
+surname : borges
+temperature : 44
+pain : 3
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('Nato', 'borges', '44', '3')
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = '' limit 1
+No Entry found in MYSQL for name : Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Nato' limit 1
+Entry found in MYSQL : Nato
+Entry found in MYSQL : borges
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Nato' limit 1
+Entry found in MYSQL : Nato
+Entry found in MYSQL : borges
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Nato' limit 1
+Entry found in MYSQL : Nato
+Entry found in MYSQL : borges
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Nato' limit 1
+Entry found in MYSQL : Nato
+Entry found in MYSQL : borges
+Starting here : 
+Storing data to file : 
+Tommy,shaw,33,5
+Split value variable into an array : 
+forename : Tommy
+surname : shaw
+temperature : 33
+pain : 5
+Storing data to MYSQL : 
+insert into `tinywebdb` (`forename`, `surname`, `temperature`, `pain`) values ('Tommy', 'shaw', '33', '5')
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Tommy' limit 1
+Entry found in MYSQL : Tommy
+Entry found in MYSQL : shaw
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Tommy' limit 1
+Entry found in MYSQL : Tommy
+Entry found in MYSQL : shaw
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Tommy' limit 1
+Entry found in MYSQL : Tommy
+Entry found in MYSQL : shaw
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Tommy' limit 1
+Entry found in MYSQL : Tommy
+Entry found in MYSQL : shaw
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Tommy' limit 1
+Entry found in MYSQL : Tommy
+Entry found in MYSQL : shaw
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Tommy' limit 1
+Entry found in MYSQL : Tommy
+Entry found in MYSQL : shaw
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Tommy' limit 1
+Entry found in MYSQL : Tommy
+Entry found in MYSQL : shaw
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Tommy' limit 1
+Entry found in MYSQL : Tommy
+Entry found in MYSQL : shaw
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Tommy' limit 1
+Entry found in MYSQL : Tommy
+Entry found in MYSQL : shaw
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Tommy' limit 1
+Entry found in MYSQL : Tommy
+Entry found in MYSQL : shaw
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Tommy' limit 1
+Entry found in MYSQL : Tommy
+Entry found in MYSQL : shaw
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Tommyn' limit 1
+No Entry found in MYSQL for name : TommynStarting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Tommyn' limit 1
+No Entry found in MYSQL for name : TommynStarting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Tommyn' limit 1
+No Entry found in MYSQL for name : TommynStarting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Tommyn' limit 1
+No Entry found in MYSQL for name : TommynStarting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'tutu' limit 1
+No Entry found in MYSQL for name : tutuStarting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'tutu' limit 1
+No Entry found in MYSQL for name : tutuStarting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'tutu' limit 1
+No Entry found in MYSQL for name : tutuStarting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'tutu' limit 1
+No Entry found in MYSQL for name : tutuStarting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Tommy' limit 1
+Entry found in MYSQL : Tommy
+Entry found in MYSQL : shaw
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Tommyii' limit 1
+No Entry found in MYSQL for name : TommyiiStarting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Tommyii' limit 1
+No Entry found in MYSQL for name : TommyiiStarting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Tommyii' limit 1
+No Entry found in MYSQL for name : TommyiiStarting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Tommyii' limit 1
+No Entry found in MYSQL for name : TommyiiStarting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Tommyii' limit 1
+No Entry found in MYSQL for name : TommyiiStarting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Tommyii' limit 1
+No Entry found in MYSQL for name : TommyiiStarting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Tommyii' limit 1
+No Entry found in MYSQL for name : TommyiiStarting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Tommyii' limit 1
+No Entry found in MYSQL for name : TommyiiStarting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Tommyii' limit 1
+No Entry found in MYSQL for name : TommyiiStarting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Tommy' limit 1
+Entry found in MYSQL : Tommy
+Entry found in MYSQL : shaw
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Tommy' limit 1
+Entry found in MYSQL : Tommy
+Entry found in MYSQL : shaw
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Timmy' limit 1
+No Entry found in MYSQL for name : TimmyStarting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Timmy' limit 1
+No Entry found in MYSQL for name : TimmyStarting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Timmy' limit 1
+No Entry found in MYSQL for name : TimmyStarting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Timmy' limit 1
+No Entry found in MYSQL for name : TimmyStarting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Timmy' limit 1
+No Entry found in MYSQL for name : TimmyStarting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Tommy' limit 1
+Entry found in MYSQL : Tommy
+Entry found in MYSQL : shaw
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Tommy' limit 1
+Entry found in MYSQL : Tommy
+Entry found in MYSQL : shaw
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Timmy' limit 1
+No Entry found in MYSQL for name : TimmyStarting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Timmy' limit 1
+No Entry found in MYSQL for name : TimmyStarting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Tommy' limit 1
+Entry found in MYSQL : Tommy
+Entry found in MYSQL : shaw
+Starting here : 
+Retrieving data from MYSQL : 
+Query : select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = 'Tommy' limit 1
+Entry found in MYSQL : Tommy
+Entry found in MYSQL : shaw

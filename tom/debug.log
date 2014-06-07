@@ -1,9 +1,0 @@
-
-Starting here : 
-Storing data to file : 
-Renata Borges
-Split surname variable into an array : 
-forename : Renata
-surname : Borges
-Storing data to MYSQL : 
-insert into `tinywebdb` (`forename`, `surname`) values ('Renata', 'Borges')

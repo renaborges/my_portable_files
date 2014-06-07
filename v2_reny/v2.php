@@ -88,11 +88,12 @@ $forename = trim($forename);
 $query =  sprintf("select `forename`, `surname`, `temperature` from `tinywebdb` where `forename` = '%s' limit 1", mysql_real_escape_string($forename));
 fwrite($fh, "Query : ". $query.PHP_EOL);
 if($link){ $result=mysql_query($query) ;}     
-if($entry = mysql_fetch_assoc($result))
+if($entry = mysql_fetch_array($result))
 {
 	
     $forename = $entry["forename"];
     $surname = $entry["surname"];
+	$temperature = $entry["temperature"];
 	fwrite($fh,"Entry found in MYSQL : ". $forename.PHP_EOL);
 	fwrite($fh,"Entry found in MYSQL : ". $surname.PHP_EOL);
 	
@@ -102,7 +103,7 @@ if($entry = mysql_fetch_assoc($result))
 }
 
 // Send result to JSON interface
-echo json_encode(array("surname", $forename, $surname));
+echo json_encode(array("value", $forename, $surname));
 
 
 }
